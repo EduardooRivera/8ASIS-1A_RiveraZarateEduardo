@@ -1,0 +1,47 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6c88a3; /* Un tono más suave de gris */
+    color: #030303; /* Color de texto principal */
+}
+
+/* Estilos para el encabezado */
+h1 {
+    text-align: center;
+    color: #007bff; /* Azul más llamativo */
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease; /* Transición suave del color */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0602f8; /* Cambia el color al pasar el mouse a un tono más oscuro */
+}
+
+/* Estilos para la lista */
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para los elementos de la lista */
+ol {
+    margin-bottom: 10px;
+}
+
+/* Estilos para el contenedor */
+div {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px; /* Bordes más redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+}

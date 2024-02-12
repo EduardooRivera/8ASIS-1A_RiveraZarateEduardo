@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;
+    color: rgb(41, 238, 179);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.userlogin {
+    background-color: #ffffff; /* Un color más suave para el fondo */
+    width: 600px; /* Reduciendo el ancho para que se vea más centrado */
+    border-radius: 15px; /* Solo especificar el radio de borde sin 'solid' */
+    border: 2px solid rgb(156, 234, 16); /* Añadido borde */
+    margin-top: 10%;
+    padding: 10px; /* Agregando espacio interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agregando sombra */
+    display: flex; /* Utilizando flexbox */
+    flex-direction: column; /* Dirección de columnas */
+    align-items: center; /* Centrando horizontalmente */
+    justify-content: center; /* Centrando verticalmente */
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px; /* Aumentando el tamaño del texto */
+    margin-bottom: 20px; /* Añadiendo margen inferior */
+    color: rgb(224, 116, 243);
+}
+
+.userid, .password {
+    margin-bottom: 20px; /* Añadiendo margen inferior */
+}
+
+.userid h2, .password h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 10px; /* Aumentando el espacio a la derecha del icono */
+    color: rgb(253, 253, 253); /* Cambiando el color del icono para que sea más suave */
+}
+
+.userid input, .password input {
+    height: 35px; /* Aumentando la altura del campo de entrada */
+    width: calc(100% - 50px); /* Ajustando el ancho del campo de entrada */
+    border: solid 2px #09c022;
+    border-radius: 5px; /* Reduciendo el radio de borde */
+    padding: 5px; /* Agregando espacio interno */
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.button button {
+    border: none;
+    border-radius: 20px; /* Aumentando el radio de borde */
+    width: 160px; /* Aumentando el ancho del botón */
+    height: 40px; /* Aumentando la altura del botón */
+    background-color: rgb(24, 246, 91);
+    color: #fff;
+    font-size: 16px; /* Aumentando el tamaño del texto */
+    font-weight: bold; /* Haciendo el texto más negrita */
+    cursor: pointer;
+}
+
+a {
+    margin-top: 20px;
+    display: inline-block; /* Cambiando a inline-block para que se muestre en línea */
+    color: rgb(24, 246, 91);
+    font-size: 14px; /* Aumentando el tamaño del texto */
+    text-decoration: none; /* Eliminando el subrayado del enlace */
+}
