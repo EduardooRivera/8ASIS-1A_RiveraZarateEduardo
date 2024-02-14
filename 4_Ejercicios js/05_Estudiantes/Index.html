@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Porcentaje de Hombres y Mujeres </title>
+</head>
+<body>
+    <h2> Porcentaje de Hombres y Mujeres </h2>
+
+    <form id="Genero">
+        <label for="NumHombres"> Cantidad de Hombres: </label>
+        <input type="number" id="NumHombres" required>
+
+        <label for="NumMujeres"> Cantidad de Mujeres: </label>
+        <input type="number" id="NumMujeres" required>
+
+        <button type="button" onclick="CalcularPorcentaje()"> Calcular </button>
+    </form>
+
+    <h3>Resultado</h3>
+    <p id="result"></p>
+
+    <script src="./js/porcentaje.js"></script>
+</body>
+</html>

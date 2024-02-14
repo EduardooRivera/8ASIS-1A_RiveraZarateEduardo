@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Arco', sans-serif;
+    src: url('./ARCO.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Arco', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #bec1d1, #969fa5);
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #a55d9c, #bd6cc0);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+
+nav {
+    background: linear-gradient(135deg, #f1b1b0, #ed9594);
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+a.active,
+a:hover {
+    background-color: #98C1D9;
+    border-color: #1a1a1a;
+}
+
+main {
+    padding: 20px;
+}
+
+#proyecto-iframe {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #98C1D9;
+    border-radius: 10px;
+}
+
+#contenedor-principal {
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #bad8f8, #98c1d9); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

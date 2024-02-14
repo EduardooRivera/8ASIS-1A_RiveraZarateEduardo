@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .v1_2 {
+    width: 895px;
+    height: 1099px;
+    background: rgb(196, 152, 217);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v2_8 {
+    width: 478px;
+    height: auto; /* Cambiado a auto para que se ajuste automáticamente al contenido */
+    background: rgb(111, 52, 179);
+    opacity: 1;
+    position: absolute;
+    top: 853px;
+    left: 368px;
+    border-radius: 15px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding: 20px; /* Añadido espacio interior para separar el texto del borde */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+
+.v2_7 {
+  width: 478px;
+  height: auto; /* Cambiar a auto para que la altura se ajuste automáticamente al contenido */
+  background: rgba(111, 52, 179);
+  opacity: 1;
+  position: absolute;
+  top: 591px;
+  left: 368px;
+  border-radius: 15px; /* Simplificado para aplicar el mismo radio de borde en todos los lados */
+  overflow: hidden;
+  padding: 40px; /* Ajustar según sea necesario para que el texto quede bien dentro del contenedor */
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+  line-height: 1.5; /* Espaciado entre líneas */
+}
+
+
+.v2_5 {
+    width: 476px;
+    height: 188px;
+    background: rgba(111, 52, 179);
+    opacity: 1;
+    position: absolute;
+    top: 329px;
+    left: 370px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+    padding: 40px; /* Ajustar según sea necesario para que el texto quede bien dentro del contenedor */
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+  line-height: 1.5; /* Espaciado entre líneas */
+}
+
+.v2_4 {
+    width: 476px;
+    height: 188px;
+    background: rgba(111, 52, 179);
+    opacity: 1;
+    position: absolute;
+    top: 65px;
+    left: 375px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+  .v2_3 {
+    width: 262px;
+    height: 778px;
+    background: rgb(186, 92, 223);
+    opacity: 1;
+    position: absolute;
+    top: 272px;
+    left: 29px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+  }
+  .v2_2 {
+    width: 188px;
+    height: 219px;
+    position: absolute;
+    top: 19px;
+    left: 54px;
+    overflow: hidden; /* Para recortar cualquier parte de la imagen que se salga del contenedor */
+    border-radius: 50%; /* Hacer la imagen ovalada */
+}
+.v2_2 img {
+  width: 100%;
+  height: auto; /* Para mantener la proporción de la imagen */
+  border-radius: 50%; /* Hacer la imagen ovalada */
+}
+  .v14_14 {
+    width: 461px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 109px;
+    left: 385px;
+    font-family: Montserrat Alternates;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v14_13 {
+    width: 186px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 65px;
+    left: 520px;
+    font-family: Montserrat Alternates;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v14_5 {
+    width: 257px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 558px;
+    left: 27px;
+    font-family: Montserrat Alternates;
+    font-weight: Regular;
+    opacity: 1;
+    text-align: center;
+  }
+  .name {
+    color: #fff;
+  }
+  .v13_29 {
+    width: 227px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 323px;
+    left: 32px;
+    font-family: Montserrat Alternates;
+    font-weight: Regular;
+    opacity: 1;
+    text-align: center;
+  }
+  .name {
+    color: #fff;
+  }
+  .v13_27 {
+    width: 182px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 998px;
+    left: 67px;
+    font-family: Montserrat Alternates;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v14_10 {
+    width: 45px;
+    height: 45px;
+    background: url("../imagenes/correo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 940px;
+    left: 132px;
+    overflow: hidden;
+  }
+  .v10_26 {
+    width: 202px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 871px;
+    left: 47px;
+    font-family: Montserrat Alternates;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v14_8 {
+    width: 46px;
+    height: 45px;
+    background: url("../imagenes/correo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 811px;
+    left: 132px;
+    overflow: hidden;
+  }
+  .v14_22 {
+    width: 275px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 343px;
+    left: 476px;
+    font-family: Montserrat Alternates;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v14_23 {
+    width: 461px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 385px;
+    left: 383px;
+    font-family: Montserrat Alternates;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+  }
+  .v14_16 {
+    width: 169px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 80px; /* Mover un poco más arriba */
+    left: 66px;
+    font-family: Montserrat Alternates;
+    font-weight: Regular;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+}
+
+
+
+

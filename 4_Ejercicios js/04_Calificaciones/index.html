@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Calificación Final</title>
+</head>
+<body>
+    <h2>Cálculo de Calificación Final</h2>
+
+    <form id="gradeForm">
+        <label for="parcial_1">Calificación Parcial 1:</label>
+        <input type="number" id="parcial_1" required>
+
+        <label for="parcial_2">Calificación Parcial 2:</label>
+        <input type="number" id="parcial_2" required>
+
+        <label for="parcial_3">Calificación Parcial 3:</label>
+        <input type="number" id="parcial_3" required>
+
+        <label for="ExamenFinal">Calificación Examen Final:</label>
+        <input type="number" id="ExamenFinal" required>
+
+        <label for="ProyectoFinal">Calificación Trabajo Final:</label>
+        <input type="number" id="ProyectoFinal" required>
+
+        <button type="button" onclick="calcularCalificacionFinal()">Calcular</button>
+    </form>
+
+    <h3>Resultado</h3>
+    <p id="Resultado"></p> 
+
+    <script src="./js/calificacion.js"></script>
+</body>
+</html>
