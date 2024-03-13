@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Divisas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="conversor">
+        <h2>Conversor de Divisas</h2>
+        <p>Realizado por Eduardo Rivera Zárate y Erick Joshmar González González</p>
+
+        <!-- Sección de divisa de origen -->
+       
+        <input type="number" id="monto" placeholder="Monto a convertir" />
+        <img id="banderaOrigen" src="C:\Users\USER\Desktop\EXAMEN2\banderas\" alt="Bandera de divisa de origen">
+        <select id="divisaOrigen">
+            <option value="USD" label="Dólar estadounidense">USD</option>
+            <option value="EUR" label="Euro">EUR</option>
+            <option value="GBP" label="Libra esterlina">GBP</option>
+            <option value="JPY" label="Yen japonés">JPY</option>
+            <option value="CAD" label="Dólar canadiense">CAD</option>
+            <option value="AUD" label="Dólar australiano">AUD</option>
+            <option value="CHF" label="Franco suizo">CHF</option>
+            <option value="CNY" label="Yuan chino">CNY</option>
+            <option value="HKD" label="Dólar de Hong Kong">HKD</option>
+            <option value="INR" label="Rupia india">INR</option>
+            <option value="MXN" label="Peso mexicano">MXN</option> <!-- Agrega esta línea para pesos mexicanos -->
+            <!-- Agrega más opciones según necesites -->
+        </select>
+
+        <!-- Sección de divisa de destino -->
+        <img id="banderaDestino" src="C:\Users\USER\Desktop\EXAMEN2\banderas\USD.png" alt="Bandera de divisa de destino">
+        <select id="divisaDestino">
+            <option value="USD" label="Dólar estadounidense">USD</option>
+            <option value="EUR" label="Euro">EUR</option>
+            <option value="GBP" label="Libra esterlina">GBP</option>
+            <option value="JPY" label="Yen japonés">JPY</option>
+            <option value="CAD" label="Dólar canadiense">CAD</option>
+            <option value="AUD" label="Dólar australiano">AUD</option>
+            <option value="CHF" label="Franco suizo">CHF</option>
+            <option value="CNY" label="Yuan chino">CNY</option>
+            <option value="HKD" label="Dólar de Hong Kong">HKD</option>
+            <option value="INR" label="Rupia india">INR</option>
+            <option value="MXN" label="Peso mexicano">MXN</option> <!-- Agrega esta línea para pesos mexicanos -->
+            <!-- Agrega más opciones según necesites -->
+        </select>
+
+        <!-- Botón de conversión y resultado -->
+        <button id="convertir">Convertir</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="js/fetch.js"></script>
+</body>
+</html>
