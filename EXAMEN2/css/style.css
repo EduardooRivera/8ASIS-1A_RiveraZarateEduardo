@@ -53,6 +53,6 @@ button:hover {
 }
 
 #conversor {
-    max-width: 300px; /* Ajusta el ancho máximo según lo necesites */
-    margin: 0 auto; /* Centra el div en la página */
+    max-width: 300px; 
+    margin: 0 auto; 
 }
